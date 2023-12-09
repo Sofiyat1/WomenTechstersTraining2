@@ -1,0 +1,217 @@
+.innerContainer{
+    max-width: 1200px;
+    /*width: 10px;*/
+    margin: 0 auto;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid black;
+}
+
+.header{
+    background-color: gold;
+    height: 500px;
+    border-bottom: 1px solid black;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+.logoSection{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 40px;
+    width: 40px;
+}
+
+.logoText{
+    font-size: 2rem;
+    margin-left: 2px;
+    font-weight: bolder;
+}
+
+.navList{
+    display:flex;
+    align-items:center;
+    
+}
+
+.navList > li{
+    display: flex;
+    font-size: 13px;
+}
+
+.navList > li ~ li{
+    margin-left: 15px;
+}
+
+li > a{
+    text-decoration: none;
+    color: #000;
+}
+
+.signInButton{
+    border: none;
+    margin-top: 2px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.getStartedButton{
+    background-color: #111111f7;
+    border: 3px solid #111111f7;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 25px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.getStartedButton:hover{
+    background-color: #000;
+    border-color: #000;
+}
+
+.showCase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+
+.showCaseDetails h2{
+    margin-top: 80px;
+    font-size: 5rem;
+    font-family: Monotype corsiva;
+}
+
+.showCaseDetails p{
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.showCaseDetails button{
+    background-color: #111111f7;
+    border: 3px solid #111111f7;
+    color: #fff;
+    border-radius: 50px;
+    width: 200px;
+    line-height: 25px;
+    padding: 8px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.modal, .signIn{
+    display: none;
+    margin: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.882);
+    z-index: 10;
+
+}
+
+.modalContent, .signInContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    border-radius: 8px;
+    height: 100%;
+    width: 48%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px;
+}
+
+.joinMedium{
+    margin-bottom: 30px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.buttonPart{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 70px;
+    background-color: white;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPart button{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.buttonPart img{
+    position: absolute;
+    left: 39%;
+}
+
+.buttonPart p span{
+    cursor: pointer;
+    color: rgb(26, 137, 23);
+    font-weight: bold;
+}
+
+#socials1{
+    width: 30px;
+    height: 30px;
+}
+
+#socials2, #socials3, #socials4, #socials5{
+    width: 22px;
+    height: 22px;
+}
+
+.pSign{
+    display: inline-block;
+}
+
+.close img{
+    width: 22px;
+    height: 22px;
+    top: 20px;
+    left: 70%;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.close img:hover{
+    opacity: 0.9;
+}
